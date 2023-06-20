@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   TitleText,
+  PageWrapper,
 } from './App.styles';
 
 import { philosophy } from './quotes';
@@ -11,7 +12,7 @@ export function Philosophy() {
   const someQuotes = [...new Array(3)].map(getQuote);
 
   return (
-    <>
+    <PageWrapper>
       <TitleText>
         Philosophy
       </TitleText>
@@ -26,6 +27,6 @@ export function Philosophy() {
           </span>
         </p>
       ))}
-    </>
+    </PageWrapper>
   );
 }

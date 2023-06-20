@@ -24,7 +24,7 @@ export const TitleText = styled.h1`
   font-family: 'StarJedi';
   font-weight: 100;
   color: white;
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 0;
   width: 100%;
   text-align: center;
@@ -43,6 +43,7 @@ export const Logo = styled(TitleText)`
 export const Nav = styled.nav`
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -82,7 +83,7 @@ export const NavItem = styled.li`
 export const Box = styled.div`
   width: 80vw;
   background: white;
-  margin: 20vh calc( 10vw - 2rem ) 10vh;
+  margin: 20vh calc( 10vw - 2rem ) 15vh;
   padding: 1rem 2rem;
   p {
     font-size: 1.2rem;
@@ -97,4 +98,8 @@ export const Image = styled.img`
 export const CenterAlign = styled.div`
   display: flex;
   justify-content: center;
+`;
+
+export const PageWrapper = styled.div`
+  margin: 20vh calc( 10vw - 2rem ) 15vh;
 `;
