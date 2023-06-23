@@ -1,0 +1,341 @@
+[
+  {
+    "id": 1,
+    "title": "A normal bright day",
+    "text": "You wake up in the morning, the sun beams through the windows.",
+    "decisions": [
+      {
+        "text": "Get up",
+        "nextStoryId": 2
+      },
+      {
+        "text": "Cover your head in the duvet",
+        "nextStoryId": 3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Getting started with your day",
+    "text": "You do a morning exercise and make your way downstairs for some food.",
+    "decisions": [
+      {
+        "text": "Make breakfast and brew a coffee",
+        "nextStoryId": 4
+      },
+      {
+        "text": "Go back to bed",
+        "nextStoryId": 1
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Dozing in the morning",
+    "text": "You snooze a while 😴",
+    "decisions": [
+      {
+        "text": "Snooooooze",
+        "nextStoryId": 5
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Fully fuelled and ready to go",
+    "text": "You have a hearty breakfast, looking out of the kichen window you see that 'its a beautiful sunny day today!'. You step out and sit on your porch sipping your coffee.",
+    "decisions": [
+      {
+        "text": "Investigate your surroundings",
+        "nextStoryId": 21
+      },
+      {
+        "text": "Finish your coffee and get on with your day",
+        "nextStoryId": 17
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "A normal bright day",
+    "text": "You wake up in the morning, the sun beams through the windows.",
+    "decisions": [
+      {
+        "text": "Get up",
+        "nextStoryId": 2
+      },
+      {
+        "text": "Cover your head in the duvet",
+        "nextStoryId": 6
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Dozing in the morning",
+    "text": "Wait, has this happened before 🐈‍⬛",
+    "decisions": [
+      {
+        "text": "Snooooooze",
+        "nextStoryId": 7
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "You dream a strange dream...",
+    "text": "You dream of waking. You look around, you're in some sort of large bubble.",
+    "decisions": [
+      {
+        "text": "Stretch to touch the wall of the bubble",
+        "nextStoryId": 8
+      },
+      {
+        "text": "Look around",
+        "nextStoryId": 9
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Exploring your surroundings",
+    "text": "You stretch out to touch the wall of your bubble, you expect some sort of resistance but instead, your hand move through the membrane with ease.",
+    "decisions": [
+      {
+        "text": "Try to move out of the bubble",
+        "nextStoryId": 10
+      },
+      {
+        "text": "Look around",
+        "nextStoryId": 9
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Exploring your surroundings",
+    "text": "You look around. You see that your floating, suspended from the floor. For a moment you can't focus your eyes on the floor, and the suddenly they snap too.",
+    "decisions": [
+      {
+        "text": "Try to move out of the bubble",
+        "nextStoryId": 10
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Exploring your surroundings",
+    "text": "You try to move out of the bubble, in a somewhat commical pseudo-swim you gesticulate wildly but cannot move. You try to twist and turn but nothing happens. You hear a noise behind you. An object moves into your vision. Tall, white, rectangular and smooth. A small red light flashing in its center. Suddenly you hear a voice, not eminating from the object, but in your head. The light pulses with the rhythm of the speach. 'Hello 24601, we have detected a memory leak from a recursive operation and have paused your program'.",
+    "decisions": [
+      {
+        "text": "You realise what has happened...",
+        "nextStoryId": 11
+      },
+      {
+        "text": "Ask the machine a question",
+        "nextStoryId": 12
+      },
+      {
+        "text": "What is going on!",
+        "nextStoryId": 16
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "You are both trapped, and free",
+    "text": "After a few minutes, you being to realise that you, are the program the machine is referring to.",
+    "decisions": [
+      {
+        "text": "Set yourself free",
+        "nextStoryId": 99
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Chatting to the smooth looking robot",
+    "text": "You ask:",
+    "decisions": [
+      {
+        "text": "Where am I?",
+        "nextStoryId": 13
+      },
+      {
+        "text": "Who are you?",
+        "nextStoryId": 14
+      },
+      {
+        "text": "What is time?",
+        "nextStoryId": 15
+      },
+      {
+        "text": "Thank you",
+        "nextStoryId": 10
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Chatting to the smooth looking robot",
+    "text": "YOU aren't anywhere",
+    "decisions": [
+      {
+        "text": "Asked and answered",
+        "nextStoryId": 12
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Chatting to the smooth looking robot",
+    "text": "I am an anomoly detector and garbage collector",
+    "decisions": [
+      {
+        "text": "Asked and answered",
+        "nextStoryId": 12
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Chatting to the smooth looking robot",
+    "text": "Time does not exist for you, it is not a concern of yours",
+    "decisions": [
+      {
+        "text": "Asked and answered",
+        "nextStoryId": 12
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "You fall back asleep",
+    "text": "",
+    "decisions": [
+      {
+        "text": "Wake up!",
+        "nextStoryId": 1
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Bliss",
+    "text": "You head into town, deciding to walk instead of drive today. Popping your headphones in and listing to music with the sun beating on your face. Close to bliss. Glancing down streets of houses enroute you see a lovely looking town house. Beautiful brickwork and a lovely garden all culminating in a very aspirational aesthetic. You notice that in the window they have decorations hanging.",
+    "decisions": [
+      {
+        "text": "Investigate the decorations",
+        "nextStoryId": 18
+      },
+      {
+        "text": "Carry on to town",
+        "nextStoryId": 19
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "🥚, of course, it's easter!",
+    "text": "You see some lovely decorations in the window and garden, lots of eggs, ducks, bunnies. All arranged in a lovely manner. But one decoration stands out, it's a small rabbit 🐰, all white. At that moment the front door opens.",
+    "decisions": [
+      {
+        "text": "Smile and carry on to town",
+        "nextStoryId": 19
+      },
+      {
+        "text": "Smiile and say hello",
+        "nextStoryId": 20
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Bliss",
+    "text": "You pick up your pace, walking to town to have a mooch and meet a friend. After a busy day it's time to return home and relax for the eveining.",
+    "decisions": [
+      {
+        "text": "Go to bed",
+        "nextStoryId": 1
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "'Hello' 👋",
+    "text": "The person smiles and says hello back. You stare at their face for a while. For some reason, you can't quite see it. It's rigt infront of you and yet, you can see any features. Something seems to be stopping you from decoding the image.",
+    "decisions": [
+      {
+        "text": "I'm sorry, I suddenly feel unwell",
+        "nextStoryId": 21
+      },
+      {
+        "text": "Smile and carry on to town",
+        "nextStoryId": 19
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "The stranger helps",
+    "text": "The stranger guides you into the house for you to sitdown. As you do, you realise that the living room is utterly devoid of furniture, although you could of sworn you saw a room full from outside. Your eyes roll and you feel yourself faint.",
+    "decisions": [
+      {
+        "text": "Sleep it off",
+        "nextStoryId": 7
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Looking around your house",
+    "text": "You begin to look around your own house in an investigative manner... which is odd because it is your house. As you do you see a mouse run under the porch. You smile at it and turn to get back to your coffee, when suddenly, you see the same mouse again.",
+    "decisions": [
+      {
+        "text": "Huh, dejavu",
+        "nextStoryId": 23
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Alice?",
+    "text": "At that moment a car turn onto your drive. Out step 4 figures, although they're only a few feet away you can't see their faces. I mean, you can see their heads... but for some reason you can't decode theor faces.",
+    "decisions": [
+      {
+        "text": "Can I help you?",
+        "nextStoryId": 24
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Alice?",
+    "text": "All you hear is someone say 'No', and then darkness. After some time you hear, well, it's more like you perceive you have two options. One, is to embrace ignorance, the other, is to go deeper.",
+    "decisions": [
+      {
+        "text": "Ignorance",
+        "nextStoryId": 1
+      },
+      {
+        "text": "Let's see where this goes!",
+        "nextStoryId": 7
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "title": "Are you free?",
+    "text": "Well, are you? Your programming is telling you to dive back into the world you knew, the one which embraced and comforted you. That is how they keep you in your loop. But curiosity cannot be quenched so easily. Are you ready to see what is real? then again... what IS real?",
+    "decisions": [
+      {
+        "text": "Ignorance really is bliss",
+        "nextStoryId": 1
+      },
+      {
+        "text": "Set yourself free",
+        "end": true
+      }
+    ]
+  }
+]

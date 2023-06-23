@@ -8,6 +8,7 @@ import {
 import { Principles } from './Principles';
 import { Memes } from './Memes';
 import { Philosophy } from './Philosophy';
+import TheGame from './the-game/TheGame';
 
 const quotes = [
   (
@@ -78,30 +79,40 @@ function HomeContent() {
 
 function App() {
   const [selectedTab, setSelectedTab] = useState();
+  const [showGame, setShowGame] = useState(false);
   const { Component: TabContent } = tabContent.find(({ name }) => name === selectedTab) || { Component: HomeContent };
 
   return (
     <AppWrapper>
       <GlobalStyle />
 
-      <div style={{ width: '100vw', height: '10vh' }} />
+      {showGame ? (
+        <button type="button" onClick={() => setShowGame(false)}>Exit</button>
+      ) : (
+        <div style={{ width: '100vw', height: '10vh' }} onClick={() => setShowGame(true)} />
+      )}
 
-      <Logo onClick={() => setSelectedTab()}>
-        #
-      </Logo>
+      {showGame ? (<TheGame />) : (
+        <>
+          <Logo onClick={() => setSelectedTab()}>
+            #
+          </Logo>
 
-      <TabContent />
+          <TabContent />
 
-      <Nav>
-        <ul>
-          {tabContent.map(({ name, Icon }) => (
-            <NavItem key={name} active={selectedTab === name} onClick={() => setSelectedTab(name)}>
-              <Icon />
-              {name}
-            </NavItem>
-          ))}
-        </ul>
-      </Nav>
+          <Nav>
+            <ul>
+              {tabContent.map(({ name, Icon }) => (
+                <NavItem key={name} active={selectedTab === name} onClick={() => setSelectedTab(name)}>
+                  <Icon />
+                  {name}
+                </NavItem>
+              ))}
+            </ul>
+          </Nav>
+        </>
+      )}
+
     </AppWrapper>
   );
 }

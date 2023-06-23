@@ -12,21 +12,23 @@ export function Philosophy() {
   const someQuotes = [...new Array(3)].map(getQuote);
 
   return (
-    <PageWrapper>
+    <>
       <TitleText>
         Philosophy
       </TitleText>
-      {someQuotes.map(({ source, quote }) => (
-        <p style={{ color: 'white', textAlign: 'center', fontSize: '1.5rem' }}>
-          <span>
-            <em>{quote}</em>
-            {' '}
-            -
-            {' '}
-            {source}
-          </span>
-        </p>
-      ))}
-    </PageWrapper>
+      <PageWrapper>
+        {someQuotes.map(({ source, quote }) => (
+          <p style={{ color: 'white', textAlign: 'center', fontSize: '1.5rem' }}>
+            <span>
+              <em>{quote}</em>
+              {' '}
+              -
+              {' '}
+              {source}
+            </span>
+          </p>
+        ))}
+      </PageWrapper>
+    </>
   );
 }
