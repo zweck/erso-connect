@@ -10,6 +10,7 @@ export const DecisionButton = styled.button`
   font-weight: 600;
   border: 0;
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   cursor: pointer;
 `;
 

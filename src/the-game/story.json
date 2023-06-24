@@ -43,11 +43,11 @@
   {
     "id": 4,
     "title": "Fully fuelled and ready to go",
-    "text": "You have a hearty breakfast, looking out of the kichen window you see that 'its a beautiful sunny day today!'. You step out and sit on your porch sipping your coffee.",
+    "text": "You have a hearty breakfast, looking out of the kitchen window you see that 'its a beautiful sunny day today!'. You step out and sit on your porch sipping your coffee.",
     "decisions": [
       {
         "text": "Investigate your surroundings",
-        "nextStoryId": 21
+        "nextStoryId": 22
       },
       {
         "text": "Finish your coffee and get on with your day",
@@ -125,7 +125,7 @@
   {
     "id": 10,
     "title": "Exploring your surroundings",
-    "text": "You try to move out of the bubble, in a somewhat commical pseudo-swim you gesticulate wildly but cannot move. You try to twist and turn but nothing happens. You hear a noise behind you. An object moves into your vision. Tall, white, rectangular and smooth. A small red light flashing in its center. Suddenly you hear a voice, not eminating from the object, but in your head. The light pulses with the rhythm of the speach. 'Hello 24601, we have detected a memory leak from a recursive operation and have paused your program'.",
+    "text": "You try to move out of the bubble, in a somewhat comical pseudo-swim you gesticulate wildly but cannot move. You try to twist and turn but nothing happens. You hear a noise behind you. An object moves into your vision. Tall, white, rectangular and smooth. A small red light flashing in its center. Suddenly you hear a voice, not emanating from the object, but in your head. The light pulses with the rhythm of the speech. 'Hello 24601, we have detected a memory leak from a recursive operation and have paused your program'.",
     "decisions": [
       {
         "text": "You realise what has happened...",
@@ -189,7 +189,7 @@
   {
     "id": 14,
     "title": "Chatting to the smooth looking robot",
-    "text": "I am an anomoly detector and garbage collector",
+    "text": "I am an anomaly detector and garbage collector",
     "decisions": [
       {
         "text": "Asked and answered",
@@ -222,7 +222,7 @@
   {
     "id": 17,
     "title": "Bliss",
-    "text": "You head into town, deciding to walk instead of drive today. Popping your headphones in and listing to music with the sun beating on your face. Close to bliss. Glancing down streets of houses enroute you see a lovely looking town house. Beautiful brickwork and a lovely garden all culminating in a very aspirational aesthetic. You notice that in the window they have decorations hanging.",
+    "text": "You head into town, deciding to walk instead of drive today. Popping your headphones in and listing to music with the sun beating on your face. Close to bliss. Glancing down streets of houses en route you see a lovely looking town house. Beautiful brickwork and a lovely garden all culminating in a very aspirational aesthetic. You notice that in the window they have decorations hanging.",
     "decisions": [
       {
         "text": "Investigate the decorations",
@@ -236,7 +236,7 @@
   },
   {
     "id": 18,
-    "title": "🥚, of course, it's easter!",
+    "title": "🥚, of course, it's Easter!",
     "text": "You see some lovely decorations in the window and garden, lots of eggs, ducks, bunnies. All arranged in a lovely manner. But one decoration stands out, it's a small rabbit 🐰, all white. At that moment the front door opens.",
     "decisions": [
       {
@@ -244,7 +244,7 @@
         "nextStoryId": 19
       },
       {
-        "text": "Smiile and say hello",
+        "text": "Smile and say hello",
         "nextStoryId": 20
       }
     ]
@@ -252,7 +252,7 @@
   {
     "id": 19,
     "title": "Bliss",
-    "text": "You pick up your pace, walking to town to have a mooch and meet a friend. After a busy day it's time to return home and relax for the eveining.",
+    "text": "You pick up your pace, walking to town to have a mooch and meet a friend. After a busy day it's time to return home and relax for the evening.",
     "decisions": [
       {
         "text": "Go to bed",
@@ -263,7 +263,7 @@
   {
     "id": 20,
     "title": "'Hello' 👋",
-    "text": "The person smiles and says hello back. You stare at their face for a while. For some reason, you can't quite see it. It's rigt infront of you and yet, you can see any features. Something seems to be stopping you from decoding the image.",
+    "text": "The person smiles and says hello back. You stare at their face for a while. For some reason, you can't quite see it. It's right in front of you and yet, you can see any features. Something seems to be stopping you from decoding the image.",
     "decisions": [
       {
         "text": "I'm sorry, I suddenly feel unwell",
@@ -278,7 +278,7 @@
   {
     "id": 21,
     "title": "The stranger helps",
-    "text": "The stranger guides you into the house for you to sitdown. As you do, you realise that the living room is utterly devoid of furniture, although you could of sworn you saw a room full from outside. Your eyes roll and you feel yourself faint.",
+    "text": "The stranger guides you into the house for you to sit down. As you do, you realise that the living room is utterly devoid of furniture, although you could of sworn you saw a room full from outside. Your eyes roll and you feel yourself faint.",
     "decisions": [
       {
         "text": "Sleep it off",
@@ -292,7 +292,7 @@
     "text": "You begin to look around your own house in an investigative manner... which is odd because it is your house. As you do you see a mouse run under the porch. You smile at it and turn to get back to your coffee, when suddenly, you see the same mouse again.",
     "decisions": [
       {
-        "text": "Huh, dejavu",
+        "text": "Huh, deja vu",
         "nextStoryId": 23
       }
     ]
@@ -300,7 +300,7 @@
   {
     "id": 23,
     "title": "Alice?",
-    "text": "At that moment a car turn onto your drive. Out step 4 figures, although they're only a few feet away you can't see their faces. I mean, you can see their heads... but for some reason you can't decode theor faces.",
+    "text": "At that moment a car turn onto your drive. Out step 4 figures, although they're only a few feet away you can't see their faces. I mean, you can see their heads... but for some reason you can't decode their faces.",
     "decisions": [
       {
         "text": "Can I help you?",

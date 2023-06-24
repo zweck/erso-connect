@@ -49,7 +49,7 @@ export const Nav = styled.nav`
   bottom: 0;
 
   ul {
-    padding: 0;
+    padding: 0 0 0.5rem;
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
