@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { DigitalRain } from 'react-digital-rain';
+import MatrixRainingLetters from './DigitalRain';
 import story from './story.json';
 import { DecisionButton, GameWrapper } from './TheGame.styles';
 
@@ -34,7 +34,7 @@ function TheGame({ hideGame }) {
             width: '100%', height: '100%', top: 0, left: 0, position: 'absolute',
           }}
         >
-          <DigitalRain enableFullScreen={false} />
+          <MatrixRainingLetters />
         </div>
       )}
       <h1>{currentStory.title}</h1>
