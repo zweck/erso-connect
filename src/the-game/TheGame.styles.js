@@ -21,5 +21,10 @@ export const GameWrapper = styled.div`
  h1, p {
    color: white;
    text-align: center;
+   z-index: 1;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    background: rgba(0,0,0,0.3);
+    border-radius: 0.5rem;
  }
 `;

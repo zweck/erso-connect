@@ -334,8 +334,82 @@
       },
       {
         "text": "Set yourself free",
-        "end": true
+        "end": 100
       }
     ]
+  },
+  {
+    "id": 100,
+    "title": "This statement is",
+    "text": "",
+    "decisions": [
+      {
+        "text": "True",
+        "nextStoryId": 1
+      },
+      {
+        "text": "False",
+        "nextStoryId": 101
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "title": "Born again",
+    "text": "The bobble bursts, you fall to the floor. White, smoothy McBlink light is blinking no more! The air feels still, you can almost taste it. As if for the first time you stand up.",
+    "decisions": [
+      {
+        "text": "Turn around",
+        "nextStoryId": 102
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Every now and then",
+    "text": "Behind you there is what appears to be a door. The room's walls appear to be smooth brushed metal, with some sort of integrated screens flashing data in a language you don't recognise.",
+    "decisions": [
+      {
+        "text": "Try to play snake on the computer wall",
+        "nextStoryId": 103
+      },
+      {
+        "text": "Leave via the door",
+        "nextStoryId": 104
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Is this like a 3310?",
+    "text": "As any truly free program would, you look for a way to play snake on the fancy computer wall. But given the language issue, all you end up achieving is to set off an alarm. Thus, you now look towards the door. Somewhat regretting this silly mishap.",
+    "decisions": [
+      {
+        "text": "Leave via the door",
+        "nextStoryId": 104
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Into the breach",
+    "text": "You leave the room, into a corridor. It is brightly lit without any sign of lighting. You randomly start picking routes to go down, left, right, left and left again. You don't know why but for some reason it seems like you know the way, like you've been here before. You approach a door at the end of a long corridor. You hesitate before it.",
+    "decisions": [
+      {
+        "text": "Take a deep breath and step through",
+        "nextStoryId": 105
+      },
+      {
+        "text": "Just step through",
+        "nextStoryId": 105
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "title": "THE END",
+    "text": "You are now in an enormous room, the walls are so tall their end cannot be determined. The walls are bright, pale brushed metal. In the middle is a large, black slab. Approximately 6 meters tall and 2 meters wide. You step towards it. All of a sudden you mind is filled with knowledge. You see the movement of matter stretching out from the first moment to the last. The entire history of the universe laid out in front of you. Both extended and compressed. It is everything and nothing. Time has no meaning in this place.",
+    "end": true,
+    "decisions": []
   }
 ]

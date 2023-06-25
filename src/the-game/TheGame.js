@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
+import { DigitalRain } from 'react-digital-rain';
 import story from './story.json';
 import { DecisionButton, GameWrapper } from './TheGame.styles';
 
-function TheGame() {
+function TheGame({ hideGame }) {
   const [currentStory, setCurrentStory] = useState(null);
 
   useEffect(() => {
@@ -25,6 +27,16 @@ function TheGame() {
 
   return (
     <GameWrapper>
+      {currentStory.end && (
+        <div
+          onClick={hideGame}
+          style={{
+            width: '100%', height: '100%', top: 0, left: 0, position: 'absolute',
+          }}
+        >
+          <DigitalRain enableFullScreen={false} />
+        </div>
+      )}
       <h1>{currentStory.title}</h1>
       <p>{currentStory.text}</p>
       {currentStory.decisions.map((decision, index) => (
@@ -35,5 +47,9 @@ function TheGame() {
     </GameWrapper>
   );
 }
+
+TheGame.propTypes = {
+  hideGame: PropTypes.func.isRequired,
+};
 
 export default TheGame;

@@ -92,7 +92,7 @@ function App() {
         <div style={{ width: '100vw', height: '10vh' }} onClick={() => setShowGame(true)} />
       )}
 
-      {showGame ? (<TheGame />) : (
+      {showGame ? (<TheGame hideGame={() => setShowGame(false)} />) : (
         <>
           <Logo onClick={() => setSelectedTab()}>
             #
