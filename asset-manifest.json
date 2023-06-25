@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/erso-connect/static/css/main.e6c13ad2.css",
-    "main.js": "/erso-connect/static/js/main.4b6c2d47.js",
+    "main.js": "/erso-connect/static/js/main.1284ad10.js",
     "static/js/787.67f3998d.chunk.js": "/erso-connect/static/js/787.67f3998d.chunk.js",
     "static/media/principles.png": "/erso-connect/static/media/principles.6d1ddfc89110fc8d465b.png",
     "static/media/splash.jpeg": "/erso-connect/static/media/splash.20ed096625b6d0ce355e.jpeg",
@@ -9,11 +9,11 @@
     "static/media/Starjedi.ttf": "/erso-connect/static/media/Starjedi.8d577dc1e1755c4860f3.ttf",
     "index.html": "/erso-connect/index.html",
     "main.e6c13ad2.css.map": "/erso-connect/static/css/main.e6c13ad2.css.map",
-    "main.4b6c2d47.js.map": "/erso-connect/static/js/main.4b6c2d47.js.map",
+    "main.1284ad10.js.map": "/erso-connect/static/js/main.1284ad10.js.map",
     "787.67f3998d.chunk.js.map": "/erso-connect/static/js/787.67f3998d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.4b6c2d47.js"
+    "static/js/main.1284ad10.js"
   ]
 }
