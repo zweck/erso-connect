@@ -51,19 +51,17 @@ const renderMatrix = (ref) => {
   };
 };
 
-function MatrixRainingLetters({ key, customClass = '' }) {
+function MatrixRainingLetters({ customClass = '' }) {
   const ref = useRef();
-  const keyName = `mrl-${key}`;
   const thisClassName = `mrl-container ${customClass}`;
   useEffect(() => renderMatrix(ref));
 
   return (
-    <canvas key={keyName} className={thisClassName} ref={ref} />
+    <canvas className={thisClassName} ref={ref} />
   );
 }
 
 MatrixRainingLetters.propTypes = {
-  key: PropTypes.string.isRequired,
   customClass: PropTypes.string,
 };
 
