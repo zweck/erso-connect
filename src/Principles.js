@@ -90,7 +90,6 @@ export function Principles() {
         </p>
 
         <p>
-          The code should be self explanatory, it doesn't matter if it's overly verbose or pure as long as the intention of the code is clearly understood by reading the code itself.
           Examples:
           Writing 4 ifs vs a nested ternary. The terse thing to do would be the ternary, but how readable is it? If in doubt, ask your pairing partner / someone else.
         </p>
